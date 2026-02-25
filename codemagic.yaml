@@ -39,7 +39,7 @@ workflows:
                   ./gradlew bundleRelease
 
         artifacts:
-            - app/build/outputs/**/*.aab
+            - android/app/build/outputs/**/*.aab
 
         publishing:
             google_play:
