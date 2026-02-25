@@ -32,6 +32,7 @@ workflows:
                 npx expo prebuild
             - name: Build Android release
               script: | 
+                  cd android
                   ./gradlew bundleRelease
 
         artifacts:

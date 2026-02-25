@@ -2,7 +2,7 @@
   "expo": {
     "name": "CodemagicHelloWorldRn",
     "slug": "CodemagicHelloWorldRn",
-    "version": "1.0.0",
+    "version": "9.0.0+9",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "codemagichelloworldrn",
