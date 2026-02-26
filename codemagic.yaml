@@ -32,7 +32,7 @@ workflows:
                 echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
             - name: Set up app/build.gradle
               script: | 
-                mv ./support-files/build.gradle.kts android/app
+                mv ./support-files/build.gradle android/app
             - name: Build Android release
               script: | 
                   cd android
