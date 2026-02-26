@@ -92,8 +92,8 @@ android {
         applicationId 'com.exam.codemagic_hello_world_android'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "9.0.0+9"
+        versionCode 11
+        versionName "9.0.0"
 
         buildConfigField "String", "REACT_NATIVE_RELEASE_LEVEL", "\"${findProperty('reactNativeReleaseLevel') ?: 'stable'}\""
     }
